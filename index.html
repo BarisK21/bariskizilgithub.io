@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portfolio von Baris Kizil – Student für Mobile Medien an der Hochschule der Medien Stuttgart. Softwareentwicklung und UX/Design.">
+  <meta name="theme-color" content="#0b1020">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Baris Kizil · Mobile Medien</title>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Zum Inhalt springen</a>
+  <header class="site-header" id="top">
+    <nav class="nav container" aria-label="Hauptnavigation">
+      <a class="brand" href="#top" aria-label="Startseite">A<span>M</span>.</a>
+      <button class="menu-toggle" aria-label="Menü öffnen" aria-expanded="false" aria-controls="nav-links"><span></span><span></span><span></span></button>
+      <div class="nav-links" id="nav-links">
+        <a href="#top">Home</a><a href="#projects">Projekte</a><a href="#about">Über mich</a><a href="#skills">Fähigkeiten</a><a href="#contact">Kontakt</a>
+        <button class="theme-toggle" type="button" aria-label="Helles Farbschema aktivieren"><span aria-hidden="true">☼</span></button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section class="hero container">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">Hallo, ich bin</p>
+        <h1>Baris Kizil<span class="accent">.</span></h1>
+        <p class="role">Student für Mobile Medien</p>
+        <p class="intro">Ich verbinde Softwareentwicklung mit UX und Design, um digitale Anwendungen zu entwickeln, die funktional, zugänglich und angenehm zu bedienen sind.</p>
+        <div class="hero-actions"><a class="button" href="#projects">Meine Projekte <span aria-hidden="true">↓</span></a><a class="button button-ghost" href="#contact">Kontakt aufnehmen</a></div>
+      </div>
+      <div class="hero-art reveal" aria-hidden="true"><div class="orb orb-one"></div><div class="orb orb-two"></div><div class="code-card"><span>const</span> craft = <b>ideas</b><br><i>build</i>(craft);</div></div>
+    </section>
+
+    <section class="section container" id="projects" aria-labelledby="projects-title">
+      <div class="section-heading reveal"><p class="eyebrow">Ausgewählte Arbeiten</p><h2 id="projects-title">Projekte, die Probleme lösen.</h2><p>Durchsuche, filtere und entdecke die Anwendungen im Detail.</p></div>
+      <div class="project-controls reveal" aria-label="Projektfilter">
+        <label class="search"><span class="sr-only">Projekte durchsuchen</span><input id="search" type="search" placeholder="Projekte durchsuchen …"><span aria-hidden="true">⌕</span></label>
+        <label><span class="sr-only">Nach Technologie filtern</span><select id="technology-filter"><option value="">Alle Technologien</option></select></label>
+        <label><span class="sr-only">Nach Status filtern</span><select id="status-filter"><option value="">Alle Status</option><option value="Fertig">Fertig</option><option value="In Entwicklung">In Entwicklung</option><option value="Archiviert">Archiviert</option></select></label>
+        <label><span class="sr-only">Projekte sortieren</span><select id="sort"><option value="newest">Neueste zuerst</option><option value="oldest">Älteste zuerst</option><option value="name">Name A–Z</option></select></label>
+      </div>
+      <p id="results-count" class="results-count" aria-live="polite"></p>
+      <div id="project-grid" class="project-grid" aria-live="polite"><div class="loading"><span></span> Projekte werden geladen …</div></div>
+      <noscript><p>Bitte aktiviere JavaScript, um die Projekte anzuzeigen.</p></noscript>
+    </section>
+
+    <section class="section section-alt" id="about" aria-labelledby="about-title"><div class="container about-grid"><div class="portrait reveal"><div class="portrait-initials">BK</div></div><div class="reveal"><p class="eyebrow">Über mich</p><h2 id="about-title">Technik mit Blick für das Erlebnis.</h2><p>Ich studiere Mobile Medien an der Hochschule der Medien Stuttgart. Meine Schwerpunkte liegen in der Softwareentwicklung sowie UX und Design.</p><p>Besonders spannend finde ich Anwendungen, die technisch solide sind und sich zugleich selbstverständlich anfühlen. Genau an dieser Verbindung arbeite ich in meinen Projekten.</p><p class="profile-meta"><strong>Standort:</strong> Stuttgart · <strong>Sprachen:</strong> Deutsch (C2), Englisch (C1/B2), Türkisch (B2)</p><a class="text-link" href="#contact">Lass uns zusammenarbeiten <span aria-hidden="true">→</span></a></div></div></section>
+
+    <section class="section container" id="skills" aria-labelledby="skills-title"><div class="section-heading reveal"><p class="eyebrow">Mein Werkzeugkasten</p><h2 id="skills-title">Fähigkeiten & Technologien</h2></div><div class="skills-grid" id="skills-grid"></div></section>
+
+    <section class="contact-section" id="contact" aria-labelledby="contact-title"><div class="container reveal"><p class="eyebrow">Kontakt</p><h2 id="contact-title">Lass uns etwas Gutes bauen.</h2><p>Du hast eine Idee, eine Rolle oder möchtest dich einfach austauschen? Schreib mir gern.</p><a class="button" href="mailto:bariskizil72@gmail.com">bariskizil72@gmail.com <span aria-hidden="true">↗</span></a><div class="socials"><a href="https://www.linkedin.com/in/baris-kizil-3998b3202/" target="_blank" rel="noopener noreferrer">LinkedIn <span class="sr-only">(öffnet in neuem Tab)</span></a></div></div></section>
+  </main>
+  <footer><div class="container"><span>© <span id="year"></span> Baris Kizil</span><a href="#top">Nach oben ↑</a></div></footer>
+  <script src="js/main.js" defer></script>
+</body>
+</html>

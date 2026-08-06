@@ -1,0 +1,40 @@
+[
+  {
+    "id": "todolist",
+    "name": "ToDoList",
+    "shortDescription": "JavaFX-Desktop-Anwendung zum Erstellen, Priorisieren und Verwalten persönlicher To-do-Listen.",
+    "description": "ToDoList entstand im Fach Software Entwicklung 2. Die Desktop-Anwendung unterstützt dabei, Aufgaben strukturiert in Listen zu erfassen und nach Priorität zu organisieren.",
+    "technologies": ["Java", "JavaFX", "Maven", "JUnit", "Log4j"],
+    "status": "Fertig",
+    "date": "2025-05-08",
+    "duration": "Semesterprojekt",
+    "image": "assets/projects/taskflow.svg",
+    "gallery": ["assets/projects/taskflow.svg", "assets/projects/taskflow-detail.svg"],
+    "features": ["Anlegen und Verwalten von To-do-Listen", "Erstellen und Bearbeiten von Aufgaben", "Priorisierung von Aufgaben", "JavaFX-basierte Desktop-Oberfläche", "Lokale Speicherung der Listen"],
+    "challenges": "Aufgaben, Listen und Prioritäten sollten in einer klaren Desktop-Oberfläche zusammengeführt und dauerhaft verfügbar gemacht werden.",
+    "solution": "Eine strukturierte JavaFX-Anwendung trennt Oberfläche, Steuerung und Datenmodell. Maven unterstützt einen reproduzierbaren Build, Tests und Logging begleiten die Entwicklung.",
+    "localPath": "C:/Users/baris/Downloads/SE2StartupProject/",
+    "liveUrl": "",
+    "githubUrl": "",
+    "downloadUrl": ""
+  },
+  {
+    "id": "fittrack",
+    "name": "Fittrack",
+    "shortDescription": "Android-Kalorientracker für Ernährung, Gewicht und Training – entwickelt im Fach Mobile Application Development 1.",
+    "description": "Fittrack ist eine Android-App zur Dokumentation von Ernährung und Fitness. Neben Lebensmitteln und Kalorien können Gewichtsverlauf, Krafttraining und Ausdauereinheiten lokal festgehalten werden.",
+    "technologies": ["Kotlin", "Android", "Jetpack Compose", "Room", "Retrofit", "Open Food Facts API"],
+    "status": "In Entwicklung",
+    "date": "2026-07-08",
+    "duration": "Laufend",
+    "image": "assets/projects/finanzblick.svg",
+    "gallery": ["assets/projects/finanzblick.svg", "assets/projects/finanzblick-detail.svg"],
+    "features": ["Erfassen von Lebensmitteln und Kalorien", "Barcode-Scanner für Lebensmittel", "Produktsuche über Open Food Facts", "Lokale Datenspeicherung mit Room", "Tracking von Gewicht, Krafttraining und Cardio"],
+    "challenges": "Ernährungsdaten aus einer externen Quelle, Kamera- beziehungsweise Barcode-Funktionen und lokale Offline-Daten mussten in einer konsistenten mobilen Anwendung zusammenkommen.",
+    "solution": "Jetpack Compose bildet die Benutzeroberfläche, Room speichert die Daten lokal und Retrofit verbindet die App mit der Produktdaten-API. Die Architektur trennt Datenzugriff, Logik und Darstellung.",
+    "localPath": "C:/Users/baris/AndroidStudioProjects/mad1/ProjektMAD/",
+    "liveUrl": "",
+    "githubUrl": "",
+    "downloadUrl": ""
+  }
+]
