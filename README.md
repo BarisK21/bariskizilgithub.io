@@ -4,7 +4,7 @@ Mein persönliches Portfolio für Softwareprojekte im Bereich Mobile Medien, Sof
 
 ## Live-Demo
 
-[barisk21.github.io](https://barisk21.github.io)
+[barisk21.github.io](https://barisk21.github.io/bariskizilgithub.io/index.html)
 
 ## Projekte
 
